@@ -1,0 +1,13 @@
+.intro_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    .computer_img{
+        img{
+            padding-top: 70px;
+            width: 400px;
+        }
+    }
+}
