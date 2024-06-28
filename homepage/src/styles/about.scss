@@ -1,0 +1,26 @@
+.about_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 100px;
+    
+    .circle{
+        margin: 50px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: rgb(11,37,60);
+        
+        p{
+            font-size: 75px;
+            text-align: center;
+            font-family: "Lato", sans-serif;
+            
+            
+        }
+        h2{
+            text-align: center;
+        }
+    }
+}
