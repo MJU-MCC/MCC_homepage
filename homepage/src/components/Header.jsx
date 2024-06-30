@@ -4,7 +4,7 @@ import '../styles/header.scss'
 import {Link} from 'react-router-dom'
 const Header = () => {
     return (
-        <div className='container'>
+        <div className='header_container'>
             <a href='/'><img src={Logo} alt='Logo'></img></a>
             <div>
             <Link className='navMenu' to={'/about'}>About</Link>
