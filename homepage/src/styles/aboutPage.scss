@@ -1,0 +1,130 @@
+.abouts_container{
+    padding-top: 300px;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    flex-direction: column;
+    h2{
+        font-weight: 900;
+        display: inline-block;
+        animation: flip 8s infinite;
+        transform-style:preserve-3d ;
+    }
+    p{
+        font-weight: 500;
+    }
+    .since{
+        align-self: baseline;
+        padding-left: 100px;
+    }
+    .what{
+        align-self: flex-end;
+        padding-right: 100px;
+    }
+    .management{
+        padding-top: 200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex-item{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 100px;
+        .item{
+            border: 2px solid white;
+            border-radius: 10px;
+            width: 400px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            img{
+                width: 150px;
+            }
+            #role{
+                font-size: 20px;
+                font-family: "Lato", sans-serif;
+                font-weight: 500;
+            }
+            #name{
+                font-size: 30px;
+                font-family: "Lato", sans-serif;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .grid-container{
+        padding-top:200px;
+        display: grid;
+        grid-template-columns: repeat(3,500px);
+        grid-template-rows: repeat(2,600px);
+        gap: 10px;
+        
+        .grid-item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            border: 2px solid white;
+            border-radius: 10px;
+            width: 400px;
+            height: 500px;
+            img{
+                width: 150px;
+            }
+            #role{
+                font-size: 20px;
+                font-family: "Lato", sans-serif;
+                font-weight: 500;
+            }
+            #name{
+                font-size: 30px;
+                font-family: "Lato", sans-serif;
+                font-weight: 700;
+            }
+        }
+        // .grid-item1{
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center;
+        //     text-align: center;
+        //     flex-direction: column;
+        //     border: 2px solid white;
+        //     border-radius: 10px;
+        //     width: 400px;
+        //     height: 500px;
+        //     grid-column: span 1.5;
+        //     grid-column-start:2 ;
+        //     img{
+        //         width: 150px;
+        //     }
+        //     #role{
+        //         font-size: 20px;
+        //         font-family: "Lato", sans-serif;
+        //         font-weight: 500;
+        //     }
+        //     #name{
+        //         font-size: 30px;
+        //         font-family: "Lato", sans-serif;
+        //         font-weight: 700;
+        //     }
+        // }
+    }
+}
+
+@keyframes flip{
+    0%,100%{ //시작과 끝 단계에서 스타일 지정
+        transform: rotateY(0); //y축 기준 0도 회전
+    }
+    50%{
+        transform: rotateY(360deg); //중간에는 360eh ghlwjs
+    }
+}
