@@ -1,0 +1,52 @@
+.study{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    // font-family: "Lato", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    flex-direction: column;
+    .study_activity{
+        background-color:lightyellow;
+        h1{
+            color: black;
+            font-family: "Anton", sans-serif;
+            font-weight: 400;
+            font-size: 100px;
+        }
+    }
+    img{
+        // padding-top: 30px;
+        width: 500px;
+    }
+    .title{
+        padding-top: 200px;
+        display: flex;
+        justify-content: baseline;
+        padding-left: 100px;
+        
+    }
+    .grid_container{
+        padding-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(4,500px);
+        grid-template-rows: repeat(2,300px);
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+
+        .grid_item{
+                font-family: "Lato", sans-serif;
+                font-weight: 600;
+                border: 2px solid white;
+                border-radius: 10px;
+                height: 300px;
+                align-content: center;
+                // width: 500px;
+                p{
+                    text-decoration: none;
+                    
+                }
+        }
+    }
+}
