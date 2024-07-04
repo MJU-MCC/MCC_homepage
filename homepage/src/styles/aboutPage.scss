@@ -21,51 +21,65 @@
         padding-right: 100px;
     }
     .management{
-        padding-top: 200px;
+        padding-top: 20vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        h1{
+            font-size: clamp(20px,5vw,60px)
+        }
+        p{
+            font-size: clamp(15px,3vw,40px);
+        }
     }
     .flex-item{
-        padding-top: 100px;
+        padding-top: 10vh;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         text-align: center;
-        gap: 100px;
+        gap: 5vw;
         .item{
             border: 2px solid white;
-            border-radius: 10px;
-            width: 400px;
-            height: 500px;
+            border-radius: 5%;
+            width: 33vw;
+            max-width: 400px;
+            height:40vw ;
+            max-height: 500px;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            
             img{
-                width: 150px;
+                width: 15vw;
+                max-width: 150px;
+                padding: 0;
             }
             #role{
-                font-size: 20px;
+                font-size: clamp(5px,2vw,25px);
                 font-family: "Lato", sans-serif;
                 font-weight: 500;
             }
             #name{
-                font-size: 30px;
+                font-size: clamp(5px,3vw,30px);
                 font-family: "Lato", sans-serif;
                 font-weight: 700;
+            }
+            #role, #name {
+                line-height: 0; /* line-height를 1로 설정하여 간격을 제거 */
             }
         }
     }
 
     .grid-container{
-        padding-top:200px;
+        padding-top:10%;
         display: grid;
-        grid-template-columns: repeat(3,500px);
-        grid-template-rows: repeat(2,600px);
-        gap: 10px;
+        grid-template-columns: repeat(3,minmax(100px,1fr));
+        grid-template-rows: repeat(2,50%);
+        gap: 5vw;
         
         .grid-item{
             display: flex;
@@ -74,21 +88,27 @@
             text-align: center;
             flex-direction: column;
             border: 2px solid white;
-            border-radius: 10px;
-            width: 400px;
-            height: 500px;
+            border-radius: 5%;
+            width: 30vw;
+            max-width: 400px;
+            height:40vw ;
+            max-height: 500px;
             img{
-                width: 150px;
+                width: 15vw;
+                max-width: 150px;
             }
             #role{
-                font-size: 20px;
+                font-size: clamp(5px,2vw,25px);
                 font-family: "Lato", sans-serif;
                 font-weight: 500;
             }
             #name{
-                font-size: 30px;
+                font-size: clamp(5px,3vw,30px);
                 font-family: "Lato", sans-serif;
                 font-weight: 700;
+            }
+            #role, #name {
+                line-height: 0; /* line-height를 1로 설정하여 간격을 제거 */
             }
         }
         // .grid-item1{

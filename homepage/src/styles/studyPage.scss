@@ -1,51 +1,47 @@
 .study{
     display: flex;
     justify-content: center;
-    padding-top: 200px;
-    // font-family: "Lato", sans-serif;
+    padding-top: 20vh;
     font-weight: 500;
     text-align: center;
     flex-direction: column;
     .study_activity{
-        background-color:lightyellow;
+        
         h1{
-            color: black;
+            color: white;
             font-family: "Anton", sans-serif;
             font-weight: 400;
-            font-size: 100px;
+            font-size: clamp(20px,10vw,100px)
         }
     }
     img{
         // padding-top: 30px;
-        width: 500px;
+        width:50vw ;
+        max-width: 500px;
     }
     .title{
-        padding-top: 200px;
+        padding-top: 10vh;
         display: flex;
         justify-content: baseline;
-        padding-left: 100px;
         
     }
     .grid_container{
-        padding-top: 100px;
+        padding-top: 5vh;
         display: grid;
-        grid-template-columns: repeat(4,500px);
-        grid-template-rows: repeat(2,300px);
-        gap: 30px;
-        align-items: center;
-        justify-content: center;
-
+        grid-template-columns: repeat(4,minmax(50px,1fr));
+        grid-template-rows: repeat(2,minmax(50px,50%));
+        gap: 3vw;
         .grid_item{
                 font-family: "Lato", sans-serif;
                 font-weight: 600;
                 border: 2px solid white;
-                border-radius: 10px;
-                height: 300px;
+                border-radius: 3%;
+                height: 10vw;                
                 align-content: center;
-                // width: 500px;
-                p{
+                font-size: clamp(1vw,2vw,38px);
+                a{
                     text-decoration: none;
-                    
+                    color: white;
                 }
         }
     }
