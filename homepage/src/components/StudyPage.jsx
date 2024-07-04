@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/studyPage.scss'
 import Key from '../assets/images/keyboard.PNG'
 import { Link } from 'react-router-dom';
@@ -17,6 +17,9 @@ const StudyPage = () => {
         setSelectedItem(item);
         setModalOpen(true);
     }
+    useEffect(()=>{
+
+    },[])
     return (
         <div className='study'>
             <div className='study_activity'>
@@ -32,7 +35,7 @@ const StudyPage = () => {
                     {modalOpen&&selectedItem==='JAVA'&&<Java setModalOpen={setModalOpen}/>}
                 </div>
                 <div className='grid_item'>
-                    <p onClick={()=>showModal('Frontend')}>Frontend+Design</p>
+                    <p onClick={()=>showModal('Frontend')}>Frontend<br/>+<br/>Design</p>
                     {modalOpen&&selectedItem==='Frontend'&&<Frontend setModalOpen={setModalOpen}/>}
                 </div>
                 <div className='grid_item'>

@@ -9,6 +9,9 @@ import Hs from '../assets/images/hs.PNG'
 import Yhs from '../assets/images/yhs.PNG'
 import Jw from '../assets/images/jw.PNG'
 const AboutPage = () => {
+    useEffect(()=>{
+
+    },[])
     return (
         <div className='abouts_container'>
             <div className='since'>
