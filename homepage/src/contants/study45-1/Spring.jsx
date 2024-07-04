@@ -1,6 +1,6 @@
 import React from 'react';
 import Img from '../study45-1/image/spring.png'
-import '../study45-1/style/c_3.scss'
+import '../study45-1/style/c.scss'
 
 const Spring = ({setModalOpen}) => {
     const closeModal=()=>{

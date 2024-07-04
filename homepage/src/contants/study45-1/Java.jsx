@@ -1,5 +1,5 @@
 import React from 'react';
-import './style/java.scss'
+import '../study45-1/style/java.scss'
 import Img from './image/java.jpg'
 
 const Java = ({setModalOpen}) => {
