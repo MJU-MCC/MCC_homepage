@@ -15,7 +15,6 @@ const App=()=> {
   return (
     <Router>
       <div className="App">
-        {/* <header className="App-header"> */}
           <Navbar/>
           <div className="App-header">
           <Routes>
@@ -26,7 +25,6 @@ const App=()=> {
           </Routes>
           </div>
           <Footer/>
-        {/* </header> */}
     </div>
     </Router>
 
