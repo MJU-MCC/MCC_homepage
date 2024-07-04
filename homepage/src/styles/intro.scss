@@ -5,10 +5,15 @@
     align-items: center;
     padding-top: 200px;
     text-align: center;
+    h1{
+        font-size: clamp(30px,5vw,60px);
+    }
     .computer_img{
         img{
             padding-top: 70px;
-            width: 400px;
+            width: 70vw;
+            max-width: 650px;
         }
     }
+
 }
