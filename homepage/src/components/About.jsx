@@ -4,16 +4,16 @@ const About = () => {
     return (
         <div className='about_container'>
             <div className='circle'>
-                <h2>Since</h2>
-                <p>1980</p>
+                <p id='about_title'>Since</p>
+                <p id='about_con'>1980</p>
             </div>
             <div className='circle'>
-                <h2>Member</h2>
-                <p>2000+</p>
+                <p id='about_title'>Member</p>
+                <p id='about_con'>2000+</p>
             </div>
             <div className='circle'>
-                <h2>Project</h2>
-                <p>+</p>
+                <p id='about_title'>Project</p>
+                <p id='about_con'>+</p>
             </div>
         </div>
     );
