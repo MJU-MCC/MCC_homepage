@@ -6,19 +6,20 @@
     position:fixed;
     background-color: black !important;
     width: 100%;
-    height: 200px;
+    height: 20vh;
     z-index: 10;
     img{
-        width: 170px;
-        margin-left: 100px;
-        padding-right: 30px;
+        width: 20vw;
+        max-width: 170px;
+        margin-left: 5vw;
+        padding-right: 5vw;
     }
     .navMenu{
         color: white;
         text-align: center;
         text-decoration: none;
-        font-size: 23px;
-        margin: 10px;
+        font-size: clamp(14px,3vw,30px);
+        margin: 1vw;
         padding: 10px;
         padding-top: 70px;
         font-family: "Lato", sans-serif;
@@ -26,20 +27,21 @@
         font-style: normal;
     }
     .navMenu:hover{
-        color:midnightblue;
+        text-decoration: underline;
     }
     .apply{
-        font-size: 25px;
+        font-size: clamp(10px,2vw,35px);
         font-family: "Lato", sans-serif;
         font-weight: 600;
         margin-left: auto;
-        // padding-right: 200px;
         border: 2px solid white;
-        border-radius: 20px;
-        width: 90px;
-        height: 20px;
-        padding: 30px;
-        margin-right: 50px;
+        border-radius: 1rem;
+        width: 10vw;
+        height:5vw;
+        max-width:200px;
+        max-height: 100px;
+        padding: 0.1vw;
+        margin-right: 5vw;
         text-align: center;
         align-items: center;
         display: flex;
