@@ -3,6 +3,7 @@ import Logo from '../assets/images/logo.png'
 import '../styles/header.scss'
 import {Link} from 'react-router-dom'
 const Header = () => {
+    
     return (
         <div className='header_container'>
             <a href='/'><img src={Logo} alt='Logo'></img></a>
