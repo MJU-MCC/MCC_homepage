@@ -1,5 +1,5 @@
 import React from 'react';
-import Img from '../study45-1/image/c_3.png'
+import Img from '../study45-1/image/python.png'
 import '../study45-1/style/c_3.scss'
 
 const Python = ({setModalOpen}) => {
