@@ -1,27 +1,22 @@
-import React, { useEffect, useState } from 'react';
 import '../styles/photos.scss'
 import {Photo} from '../contants/SlidePhotos'
+import { useEffect, useState } from 'react';
 const Photos = () => {
-
-    // const [currentIndex, setCurrentIndex] = useState(0);
-
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         setCurrentIndex((prevIndex) => (prevIndex + 1) % Photo.length);
-    //     },5000); // 2초마다 사진 변경
-    //     return () => clearInterval(interval);
-    // }, []);
-
-    // const getPhotoIndex = (index) => {
-    //     return index % Photo.length;
-    // };
+    const [photo,setPhoto]=useState([]);
+    useEffect(()=>{
+        const newPhotos=[];
+        for(let i=0; i<100;i++){
+            newPhotos.push(...Photo)
+        }
+        setPhoto(newPhotos);
+    },[])
     return (
         <div className='photos_container'>
             <div className='show'>
                 {
-                    [...Photo, ...Photo].map((src, index) => (
-                        <div className='index' key={index}>
-                            <img src={src} alt={`slide-${index}`} />
+                    photo.map((src,index) => (
+                        <div className='index'>
+                            <img src={src} alt={`slide:${index}`} />
                         </div>
                     ))
                 }

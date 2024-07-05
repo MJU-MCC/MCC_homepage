@@ -9,7 +9,7 @@
         display: flex;
         flex-direction: row;
         width:100vw;
-        animation: slide 20s linear infinite;
+        animation: slide 30s linear infinite;
         
     }
     .index{
@@ -20,12 +20,12 @@
             max-width:400px;
             max-height: 250px;
             min-width: 100px;
-            flex-shrink: 0; //구역 안에 생기는 영역들이 공간을 분배하여 가지지 않도록 적용
+            // flex-shrink: 0; //구역 안에 생기는 영역들이 공간을 분배하여 가지지 않도록 적용
             margin: 0 0.5vw;
         }
     }
 }
 @keyframes slide {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
 }
