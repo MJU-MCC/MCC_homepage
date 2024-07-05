@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/studyPage.scss'
 import Key from '../assets/images/keyboard.PNG'
-import { Link } from 'react-router-dom';
 import Java from '../contants/study45-1/Java';
 import Frontend from '../contants/study45-1/Frontend';
 import C_1 from '../contants/study45-1/C_1';

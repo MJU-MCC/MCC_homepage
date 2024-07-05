@@ -1,7 +1,6 @@
 import React from 'react';
 import Img from '../assets/images/study.png'
 import '../styles/study.scss'
-import Link from 'react-router-dom'
 const Study = () => {
     return (
         <div className='study_container'>

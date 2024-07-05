@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
-import Header from './Header';
 import '../styles/main.scss'
 import Intro from './Intro';
-import Navbar from './Navbar';
 import About from './About';
 import Study from './Study';
 import Photos from './Photos';
