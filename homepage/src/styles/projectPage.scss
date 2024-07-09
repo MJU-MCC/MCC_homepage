@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+.project_container{
+    padding-top: 50vh;
+    display: flex;
+    justify-content: center;
+    p{
+        font-family: 'TTTtangsbudaejjigaeB';
+        color: white;
+        font-size: clamp(20px,5vw,80px);
+        
+    }
+    img{
+        width: 3vw;
+        height: 4vw;
+        animation:text 20s infinite;
+    }
+}
+@keyframes text {
+    0%{
+        transform: translateX(-30vw) ;
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-30vw) rotate(360deg);
+    }
+}
