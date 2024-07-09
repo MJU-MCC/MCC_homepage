@@ -11,14 +11,15 @@
     }
     p{
         font-weight: 500;
+        font-size: clamp(15px,3vw,30px);
     }
     .since{
         align-self: baseline;
-        padding-left: 100px;
+        padding-left: 5vw;
     }
     .what{
         align-self: flex-end;
-        padding-right: 100px;
+        padding-right: 5vw;
     }
     .management{
         padding-top: 20vh;
