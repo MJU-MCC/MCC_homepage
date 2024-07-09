@@ -30,7 +30,7 @@ const StudyPage = () => {
             </div>
             <div className='grid_container'>
                 <div className='grid_item'>
-                    <p onClick={()=>showModal('JAVA')}>JAVA</p>
+                    <p onClick={()=>showModal('JAVA')}>Java</p>
                     {modalOpen&&selectedItem==='JAVA'&&<Java setModalOpen={setModalOpen}/>}
                 </div>
                 <div className='grid_item'>

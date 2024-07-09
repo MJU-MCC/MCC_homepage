@@ -13,7 +13,7 @@ const Header = () => {
             <Link className='navMenu' to={'/project'}>Project</Link>
             </div>
             <div className='apply'>
-                <p>지원하기</p>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSed0Jzj5lq-k-qCKhXtOPlYmKPSk5H0Jz9_LbQfYBl_kLDl0g/viewform'>지원하기</a>
             </div>
         </div>
     );

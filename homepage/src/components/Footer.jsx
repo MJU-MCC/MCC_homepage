@@ -11,7 +11,7 @@ const Footer = () => {
             </div>
             <div>
                 <p>
-                    MCC Myungji Computer Club (명지대학교 컴퓨터 동아리)<br/>
+                    Myongji Computer Club (명지대학교 컴퓨터 동아리)<br/>
                     Copyright©2024.MCC. All rights reserved.
                 </p>
             </div>

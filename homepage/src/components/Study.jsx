@@ -8,8 +8,8 @@ const Study = () => {
             <div>
             <h1>Study 활동</h1>
             <p>
-                <br/>배우고싶은 다양한 분야를<br/>
-                열정있는 사람들과 Study 할수있는 기회!
+                <br/>배우고 싶은 다양한 분야를<br/>
+                열정있는 사람들과 Study 할 수 있는 기회!
             </p>
             </div>
             <a href='/study'>

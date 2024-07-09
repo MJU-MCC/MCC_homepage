@@ -88,7 +88,7 @@ const AboutPage = () => {
                     </div>
                     <div className='grid-item'>
                         <img src={Jw} alt='jw'></img>
-                        <p id='role'>차기회장</p>
+                        <p id='role'>기획부</p>
                         <p id='name'>이정우</p>
                         <p id='role'>명지대학교 전자공학과</p>
                     </div>
