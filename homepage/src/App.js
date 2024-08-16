@@ -1,10 +1,7 @@
 import './App.css';
 import Main from './components/Main';
-import { BrowserRouter as Router, Routes, Route, useLocation} from 'react-router-dom';
-import About from './components/About';
-import Study from './components/Study';
+import { BrowserRouter as Routes, Route, useLocation} from 'react-router-dom';
 import ProjectPage from './components/ProjectPage';
-import Header from './components/Header';
 import Navbar from './components/Navbar';
 import AboutPage from './components/AboutPage';
 import StudyPage from './components/StudyPage';

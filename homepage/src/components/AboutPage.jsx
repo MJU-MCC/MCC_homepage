@@ -2,12 +2,9 @@ import React, { useEffect } from 'react';
 import '../styles/aboutPage.scss'
 import Jiwon from '../assets/images/jiwon.PNG'
 import Sh from '../assets/images/sh.PNG'
-import Coco from '../assets/images/coconut.PNG'
-import Iy from '../assets/images/iy.PNG'
-import Seh from '../assets/images/seh.PNG'
 import Hs from '../assets/images/hs.PNG'
-import Yhs from '../assets/images/yhs.PNG'
 import Jw from '../assets/images/jw.PNG'
+import yl from '../assets/images/yl.PNG'
 const AboutPage = () => {
     useEffect(()=>{
 
@@ -63,18 +60,18 @@ const AboutPage = () => {
                         <p id='role'>명지대학교 전자공학과</p>
                     </div>
                     <div className='grid-item'>
-                        <img src={Coco} alt='coco'></img>
+                        <img src={Jw} alt='Jw'></img>
+                        <p id='role'>기획부</p>
+                        <p id='name'>이정우</p>
+                        <p id='role'>명지대학교 전자공학과</p>
+                    </div>
+                    <div className='grid-item'>
+                        <img src={yl} alt='yl'></img>
                         <p id='role'>학습부</p>
-                        <p id='name'>고건혁</p>
+                        <p id='name'>신예림</p>
                         <p id='role'>명지대학교 컴퓨터공학과</p>
                     </div>
-                    <div className='grid-item'>
-                        <img src={Iy} alt='iy'></img>
-                        <p id='role'>홍보부</p>
-                        <p id='name'>박인영</p>
-                        <p id='role'>명지대학교 정보통신공학과</p>
-                    </div>
-                    <div className='grid-item'>
+                    {/* <div className='grid-item'>
                         <img src={Seh} alt='seh'></img>
                         <p id='role'>디자인부</p>
                         <p id='name'>방세현</p>
@@ -91,7 +88,7 @@ const AboutPage = () => {
                         <p id='role'>기획부</p>
                         <p id='name'>이정우</p>
                         <p id='role'>명지대학교 전자공학과</p>
-                    </div>
+                    </div> */}
                     
                 </div>
             </div>
