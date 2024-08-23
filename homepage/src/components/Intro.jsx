@@ -11,7 +11,7 @@ const Intro = () => {
             <h3>
                     컴퓨터를 좋아하는 학생이라면,<br/>
                     컴퓨터와 관련된 직무를 희망하는 사람이라면,<br/>
-                    누구나 즐길 수 있는 동아리입니다. 
+                    누구나 즐길 수 있는 동아리입니다.  
             </h3>
             <div className='computer_img'>
                     <img src={com}></img>
